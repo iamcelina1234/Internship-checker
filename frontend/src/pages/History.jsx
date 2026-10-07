@@ -23,7 +23,7 @@ function History() {
         }
 
         const response = await fetch(
-          `http://localhost:5000/api/checker/${userId}`
+          `https://internship-checker.onrender.com/api/checker/${userId}`
         );
 
         const data = await response.json();
@@ -46,7 +46,7 @@ function History() {
  const handleDelete = async (checkId) => {
   try {
     const response = await fetch(
-      `http://localhost:5000/api/checker/${checkId}`,
+      `https://internship-checker.onrender.com/api/checker/${checkId}`,
       {
         method: "DELETE",
       }

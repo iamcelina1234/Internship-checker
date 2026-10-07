@@ -27,7 +27,7 @@ function Checker() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/checker",
+        "https://internship-checker.onrender.com/api/checker",
         {
           method: "POST",
 

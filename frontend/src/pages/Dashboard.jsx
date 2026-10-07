@@ -47,7 +47,7 @@ function Dashboard() {
         // -------------------------
 
         const statsResponse = await fetch(
-          `http://localhost:5000/api/checker/stats/${userId}`
+          `https://internship-checker.onrender.com/api/checker/stats/${userId}`
         );
 
         const statsData = await statsResponse.json();
@@ -61,7 +61,7 @@ function Dashboard() {
         // -------------------------
 
         const historyResponse = await fetch(
-          `http://localhost:5000/api/checker/${userId}`
+          `https://internship-checker.onrender.com/api/checker/${userId}`
         );
 
         const historyData = await historyResponse.json();

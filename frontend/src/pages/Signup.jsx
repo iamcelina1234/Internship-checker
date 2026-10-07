@@ -29,7 +29,7 @@ function Signup() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/auth/signup",
+        "https://internship-checker.onrender.com/api/auth/signup",
         {
           method: "POST",
           headers: {
